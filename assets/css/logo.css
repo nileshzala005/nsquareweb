@@ -1,0 +1,27 @@
+/* Logo and header styles */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.site-logo {
+  display: block;
+  height: 40px;  /* keep consistent height */
+  width: auto;
+  max-width: 100%;
+}
+
+/* smaller screen adjustments */
+@media (max-width: 600px) {
+  .site-logo { height: 32px; }
+}
